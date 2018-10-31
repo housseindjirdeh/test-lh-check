@@ -9,7 +9,8 @@
     "serve": "preact build && preact serve",
     "dev": "preact watch",
     "lint": "eslint src",
-    "test": "jest"
+    "test": "jest",
+    "lh": "lighthouse-ci"
   },
   "eslintConfig": {
     "extends": "eslint-config-synacor"
@@ -23,6 +24,7 @@
     "identity-obj-proxy": "^3.0.0",
     "if-env": "^1.0.0",
     "jest": "^21.2.1",
+    "lighthouse-ci": "git+https://github.com/ebidel/lighthouse-ci.git",
     "preact-cli": "^2.1.0",
     "preact-render-spy": "^1.2.1"
   },
